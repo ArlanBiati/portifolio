@@ -1,13 +1,20 @@
 /* =========== HEADER =========== */
 header {
     display: flex;
+
+    width: 100vw;
+    height: 90px;
+
+    position: fixed;
+    z-index: 9999;
+
+    background-color: rgb(24, 26, 21);
+}
+
+header div.container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-
-    height: 80px;
-
-    margin-top: 2%;
-    padding: 0 2%;
 }
 
 header img:nth-child(1) {
@@ -15,13 +22,14 @@ header img:nth-child(1) {
     height: 50px;
 }
 
-header img:nth-child(2) {
-    width: 200px;
-    height: 45px;
-}
-
 header .header a {
     padding: 8px;
+}
+
+header .header a:hover {
+    color: greenyellow;
+
+    transition: all 400ms ease-in-out;
 }
 
 /* ============= BANNER ME ============= */
@@ -31,7 +39,7 @@ section.banner {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    padding: 25% 2%;
+    padding: 32% 0;
 }
 
 section div.banner-image {
@@ -46,7 +54,6 @@ section div.banner-image img {
     border-radius: 50%;
     border: 2px solid greenyellow;
 }
-
 
 section div.banner-description h3{
     font-size: 22px;
@@ -116,7 +123,7 @@ section div.banner-description p{
     transition: all 400ms ease-in-out;
 }
 
-/* ======= ABOUT ME =========== */
+/* =============== ABOUT ME ============= */
 
 .number.show {
     opacity: 1;
@@ -157,7 +164,7 @@ section.about {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    padding: 25% 2%;
+    padding: 32% 0;
 }
 
 section.about div.about-image {
@@ -212,14 +219,6 @@ section.about div.about-me h2::after {
     background-color: greenyellow;
 }
 
-section.about div.about-me div {
-    margin-bottom: 30px;
-}
-
-section.about div.about-me div:last-child {
-    margin-bottom: 0;
-}
-
 section.about div.about-me p {
     color: #d8d7d6;
 
@@ -227,14 +226,12 @@ section.about div.about-me p {
     font-weight: 400;
     line-height: 1.8;
 
-    margin-bottom: 50px;
+    margin: 32px 0 64px 0;
 }
 
 section.about div.about-me div.about-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-content: center;
 
     padding: 5% 5% ;
 
@@ -242,4 +239,13 @@ section.about div.about-me div.about-form {
 
     border-radius: 8px;
     border: 1px solid greenyellow;
+}
+
+section.about div.about-me div.about-form span {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+section.about div.about-me div.about-form div.form-info {
+    padding: 8% 0;
 }
