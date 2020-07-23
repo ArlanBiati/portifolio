@@ -54,7 +54,7 @@ Posteriormente irei deixar o site dinamico com a integração de códigos em Jav
 
 ---
 
-## :rocket: Tecnologias
+## 🚀 Tecnologias
 
 O projeto está sendo desenvolvido usando as seguintes tecnologias
 
