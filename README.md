@@ -16,7 +16,7 @@
 
 
 <h4 align="center"> 
-	Desenvolvimento do meu portifolio utilizando somente HTML, CSS Puro e JavaScript
+	Desenvolvimento do meu portfolio utilizando somente HTML, CSS Puro e JavaScript
 </h4>
 
 <p align="center">
